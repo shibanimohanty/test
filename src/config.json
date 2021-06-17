@@ -1,0 +1,26 @@
+{
+    "MAX_ATTACHMENT_SIZE": 5000000,
+    "cognito": {
+        "USER_POOL_ID": "eu-west-1_78GaH5hvi",
+        "REGION": "eu-west-1",
+        "APP_CLIENT_ID": "50oeegb54t3p5hvlrhn3a8epk3",
+        "IDENTITY_POOL_ID": "eu-west-1:68d0b645-9e5c-46c1-b7f1-e906b596eb20"
+    },
+    "s3": {
+        "REGION": "eu-west-1",
+        "BUCKET": "gastron-imagebucket"
+      },
+    "apiGateway":{
+        "REGION": "eu-west-1",
+        "URL": "https://wvohjfgaa6.execute-api.eu-west-1.amazonaws.com/test"
+    },
+    "devApiGateway":{
+        "REGION": "eu-west-1",
+        "URL": "https://i1kzdoqyd8.execute-api.eu-west-1.amazonaws.com/DEV"
+    },
+    "devCognito": {
+        "USER_POOL_ID": "eu-west-1_Dk26N6kr2",
+        "REGION": "eu-west-1",
+        "APP_CLIENT_ID": "4eu3b9qtn1fk8jv22fdmd0eq83"
+    }
+}
